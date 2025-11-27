@@ -1,0 +1,154 @@
+{
+  "version": 3,
+  "pages404": true,
+  "caseSensitive": false,
+  "basePath": "",
+  "redirects": [
+    {
+      "source": "/:path+/",
+      "destination": "/:path+",
+      "internal": true,
+      "statusCode": 308,
+      "regex": "^(?:/((?:[^/]+?)(?:/(?:[^/]+?))*))/$"
+    }
+  ],
+  "headers": [],
+  "dynamicRoutes": [
+    {
+      "page": "/api/check-update/[messageId]",
+      "regex": "^/api/check\\-update/([^/]+?)(?:/)?$",
+      "routeKeys": {
+        "nxtPmessageId": "nxtPmessageId"
+      },
+      "namedRegex": "^/api/check\\-update/(?<nxtPmessageId>[^/]+?)(?:/)?$"
+    }
+  ],
+  "staticRoutes": [
+    {
+      "page": "/",
+      "regex": "^/(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/(?:/)?$"
+    },
+    {
+      "page": "/_not-found",
+      "regex": "^/_not\\-found(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/_not\\-found(?:/)?$"
+    },
+    {
+      "page": "/asientos",
+      "regex": "^/asientos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/asientos(?:/)?$"
+    },
+    {
+      "page": "/check-in",
+      "regex": "^/check\\-in(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/check\\-in(?:/)?$"
+    },
+    {
+      "page": "/chedf",
+      "regex": "^/chedf(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/chedf(?:/)?$"
+    },
+    {
+      "page": "/equipaje-adicional",
+      "regex": "^/equipaje\\-adicional(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/equipaje\\-adicional(?:/)?$"
+    },
+    {
+      "page": "/estado-vuelo",
+      "regex": "^/estado\\-vuelo(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/estado\\-vuelo(?:/)?$"
+    },
+    {
+      "page": "/favicon.ico",
+      "regex": "^/favicon\\.ico(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/favicon\\.ico(?:/)?$"
+    },
+    {
+      "page": "/informes/cuentas",
+      "regex": "^/informes/cuentas(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/informes/cuentas(?:/)?$"
+    },
+    {
+      "page": "/loginRegistros",
+      "regex": "^/loginRegistros(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/loginRegistros(?:/)?$"
+    },
+    {
+      "page": "/mis-viajes",
+      "regex": "^/mis\\-viajes(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/mis\\-viajes(?:/)?$"
+    },
+    {
+      "page": "/pago",
+      "regex": "^/pago(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pago(?:/)?$"
+    },
+    {
+      "page": "/pasajeros",
+      "regex": "^/pasajeros(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/pasajeros(?:/)?$"
+    },
+    {
+      "page": "/registro",
+      "regex": "^/registro(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/registro(?:/)?$"
+    },
+    {
+      "page": "/resultados",
+      "regex": "^/resultados(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/resultados(?:/)?$"
+    },
+    {
+      "page": "/seguro-viaje",
+      "regex": "^/seguro\\-viaje(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/seguro\\-viaje(?:/)?$"
+    },
+    {
+      "page": "/seleccion-asientos",
+      "regex": "^/seleccion\\-asientos(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/seleccion\\-asientos(?:/)?$"
+    },
+    {
+      "page": "/servicios",
+      "regex": "^/servicios(?:/)?$",
+      "routeKeys": {},
+      "namedRegex": "^/servicios(?:/)?$"
+    }
+  ],
+  "dataRoutes": [],
+  "rsc": {
+    "header": "RSC",
+    "varyHeader": "RSC, Next-Router-State-Tree, Next-Router-Prefetch, Next-Router-Segment-Prefetch",
+    "prefetchHeader": "Next-Router-Prefetch",
+    "didPostponeHeader": "x-nextjs-postponed",
+    "contentTypeHeader": "text/x-component",
+    "suffix": ".rsc",
+    "prefetchSuffix": ".prefetch.rsc",
+    "prefetchSegmentHeader": "Next-Router-Segment-Prefetch",
+    "prefetchSegmentSuffix": ".segment.rsc",
+    "prefetchSegmentDirSuffix": ".segments"
+  },
+  "rewriteHeaders": {
+    "pathHeader": "x-nextjs-rewritten-path",
+    "queryHeader": "x-nextjs-rewritten-query"
+  },
+  "rewrites": []
+}

@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/api/bin-lookup/route": "app/api/bin-lookup/route.js",
+  "/api/send-message/route": "app/api/send-message/route.js",
+  "/api/check-update/[messageId]/route": "app/api/check-update/[messageId]/route.js",
+  "/favicon.ico/route": "app/favicon.ico/route.js",
+  "/chedf/page": "app/chedf/page.js",
+  "/estado-vuelo/page": "app/estado-vuelo/page.js",
+  "/equipaje-adicional/page": "app/equipaje-adicional/page.js",
+  "/mis-viajes/page": "app/mis-viajes/page.js",
+  "/loginRegistros/page": "app/loginRegistros/page.js",
+  "/asientos/page": "app/asientos/page.js",
+  "/page": "app/page.js",
+  "/pasajeros/page": "app/pasajeros/page.js",
+  "/pago/page": "app/pago/page.js",
+  "/check-in/page": "app/check-in/page.js",
+  "/registro/page": "app/registro/page.js",
+  "/seguro-viaje/page": "app/seguro-viaje/page.js",
+  "/seleccion-asientos/page": "app/seleccion-asientos/page.js",
+  "/resultados/page": "app/resultados/page.js",
+  "/servicios/page": "app/servicios/page.js",
+  "/informes/cuentas/page": "app/informes/cuentas/page.js"
+}

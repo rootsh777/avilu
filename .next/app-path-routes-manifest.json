@@ -1,0 +1,23 @@
+{
+  "/_not-found/page": "/_not-found",
+  "/api/bin-lookup/route": "/api/bin-lookup",
+  "/api/send-message/route": "/api/send-message",
+  "/api/check-update/[messageId]/route": "/api/check-update/[messageId]",
+  "/favicon.ico/route": "/favicon.ico",
+  "/chedf/page": "/chedf",
+  "/estado-vuelo/page": "/estado-vuelo",
+  "/equipaje-adicional/page": "/equipaje-adicional",
+  "/mis-viajes/page": "/mis-viajes",
+  "/loginRegistros/page": "/loginRegistros",
+  "/asientos/page": "/asientos",
+  "/page": "/",
+  "/pasajeros/page": "/pasajeros",
+  "/pago/page": "/pago",
+  "/check-in/page": "/check-in",
+  "/registro/page": "/registro",
+  "/seguro-viaje/page": "/seguro-viaje",
+  "/seleccion-asientos/page": "/seleccion-asientos",
+  "/resultados/page": "/resultados",
+  "/servicios/page": "/servicios",
+  "/informes/cuentas/page": "/informes/cuentas"
+}
